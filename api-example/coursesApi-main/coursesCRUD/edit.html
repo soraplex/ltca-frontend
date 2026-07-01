@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit User</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+  </head>
+  <body>
+    <main>
+      <article>
+        <h1>Edit User</h1>
+        <form id="editUserForm">
+          <label for="department">Department</label>
+          <input type="text" id="department" required />
+          <label for="name">Course Name</label>
+          <input type="text" id="name" required />
+          <label for="courseNumber">Course Number</label>
+          <input type="text" id="courseNumber" required />
+          <button
+            type="button"
+            class="btn btn-primary-custom"
+            onclick="editCourseData()"
+          >
+            Save
+          </button>
+        </form>
+      </article>
+    </main>
+    <script src="scripts/edit.js"></script>
+  </body>
+</html>

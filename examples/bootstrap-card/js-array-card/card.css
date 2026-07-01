@@ -1,0 +1,25 @@
+/* /* .card {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+#petsDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.card {
+  width: 18rem;
+}
+
+.card-img-fit {
+  object-fit: cover;
+  width: 18rem;
+  height: 25rem;
+}
