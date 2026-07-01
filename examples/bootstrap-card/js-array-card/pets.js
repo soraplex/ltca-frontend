@@ -18,11 +18,11 @@ const pets = [
     species: "Cane Corso (Dog)",
     favoriteActivity: "Napping",
     image:
-      "https://cdn.wamiz.fr/cdn-cgi/image/format=auto,quality=80,width=720,height=405,fit=cover/animal/breed/dog/adult/66fcf846b15af138295652.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjhu17N8JhPTVfe9yBoKM1JzWm0Y3jcp3Z9ZCJOYz3vz_HSamKS_l0QLQlpVsoDFc1pABmTv4a_k9uYfV5PAfvMycrjilV0EvEgmNjsEFU&s=10",
   },
 ];
 
-const petsDiv = document.getElementById("petsDiv");
+const petsDiv = document.querySelector("#petsDiv");
 
 for (const pet of pets) {
   const card = document.createElement("div");
