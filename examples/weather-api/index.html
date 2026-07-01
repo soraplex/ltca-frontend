@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.classless.min.css"/> -->
+    <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/simpledotcss/simple.min.css"/> -->
+  </head>
+  <body>
+    <main>
+      <h1>Weather</h1>
+      <select id="city-dropdown-option" onchange="handleCityChanged();">
+        <!-- <option value="">Select a City</option> -->
+      </select>
+      <table>
+        <tbody id="weatherTableBody"></tbody>
+      </table>
+    </main>
+    <script src="weather.js"></script>
+  </body>
+</html>
