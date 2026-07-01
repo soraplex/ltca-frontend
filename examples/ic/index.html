@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ice cream</title>
+    <!-- Centered viewport -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css" />
+    <!-- <link rel="stylesheet" href="menu.css" /> -->
+  </head>
+  <body>
+    <main>
+      <article>
+        <form>
+          <label for="">Number of scoops</label>
+          <input type="number" id="scoopAmount" min="1" max="4" />
+          <fieldset>
+            <input type="radio" name="coneAndCup" id="coneOption" />
+            <label for="coneOption">Cone</label>
+            <input type="radio" name="coneAndCup" id="cupOption" />
+            <label for="cupOption">Cup</label>
+          </fieldset>
+          <fieldset id="toppingsCheckbox">
+            <legend>Toppings</legend>
+            <input type="checkbox" id="cherryBox" />
+            <label for="cherryBox">Cherry ($0.25)</label>
+            <input type="checkbox" id="whipcreamBox" />
+            <label for="whipcreamBox">Whiped Cream ($.25)</label>
+            <input type="checkbox" id="sprinkleBox" />
+            <label for="sprinkleBox">Sprinkles ($.50)</label>
+            <input type="checkbox" id="hotfudgeBox" />
+            <label for="hotfudgeBox">Hot Fudge($1.25)</label>
+          </fieldset>
+          <button type="button" id="orderSubmit">Submit Order</button>
+          <table>
+            <tbody>
+              <tr>
+                <td>Base Price:</td>
+                <td id="basePriceTotal">$0.00</td>
+              </tr>
+              <tr>
+                <td>Tax:</td>
+                <td id="taxAppllied">$0.00</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>Total Due:</td>
+                <td id="entireTotal">$0.00</td>
+              </tr>
+            </tfoot>
+          </table>
+        </form>
+      </article>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>
