@@ -1,4 +1,4 @@
-# ⚠️ Note: This repo is a re-upload of workbooks 1-9 condensed into one repo rather then separate folders
+# ⚠️ Note: This repo is a re-upload of workbooks 1-9 condensed into one repo rather than separate folders
 
 ### workbook 1 - HTML, CSS, Bootstrap
 
