@@ -1,30 +1,36 @@
-# Workbook 3
+# Workbook 3: Functions, Scoping, Strings, Dates, Forms
 
-code demos, examples & exercises for workbook 3
+Demos, examples, and exercises covering functions in depth, variable scope, text and date handling, and form controls.
 
-- JavaScript Functions cont.
-- Parameters
-  - Passing params, built in functions
-- Return Values
-- Scoping
-  - var, use strict
-  - Hoisting variables
-  - ES6 block scope options
-  - 'let' and 'const'
-- Strings and dates
-  - Strings, escape characters
-  - String literals
-  - Searching string
-  - Extracting substrings
-  - Finding substrings
-  - Template strings (string interpolation)
-  - Converting string to array
-- Dates
-  - Displaying dates, creating dates
-  - Setting date Fields
-  - Parsing dates
-- Forms
-  - Anonymous functions
-  - Check boxes, radio buttons
-  - Hiding and showing elements
-  - querySelector(), querySelectorAll
+## Functions
+
+- Parameters and passing arguments
+- Built-in functions
+- Return values
+- Anonymous functions
+
+## Scoping
+
+- `var` and `"use strict"`
+- Hoisting
+- ES6 block scope with `let` and `const`
+
+## Strings
+
+- Escape characters and string literals
+- Searching strings and finding substrings
+- Extracting substrings
+- Template strings (string interpolation)
+- Converting strings to arrays
+
+## Dates
+
+- Creating and displaying dates
+- Setting date fields
+- Parsing dates
+
+## Forms
+
+- Checkboxes and radio buttons
+- Hiding and showing elements
+- `querySelector()` and `querySelectorAll()`

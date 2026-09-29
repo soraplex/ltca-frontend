@@ -1,20 +1,20 @@
-# Workbook8
+# Workbook 8: HTTP Methods, Fetch API, Web Storage
 
-code demos, examples & exercises for workbook 8
+Demos, examples, and exercises covering how to create, update, and delete data through a REST API, and how to store data in the browser.
 
-- HTTPS METHODS
-  - POST, PUT, and DELETE requests
-- Postman
-  - Specifying the request body
-- Using Fetch API
-  - Making POST, PUT, and DELETE requests using fetch()
-  - fetch() method for other HTTPS requests
-  - Sending POST request
-  - Sending JSON data in a POST request
-  - Sending/working with PUT request
-  - Sending/working with DELETE request
-  - Different format for data in HTTPS request body
-- Web storage
-  - Using web storage
-  - Working with local storage
-  - working with sesstion storage
+## HTTP Methods
+
+- `POST`, `PUT`, and `DELETE` requests
+- Testing requests in Postman, including specifying the request body
+
+## Fetch API
+
+- Making `POST`, `PUT`, and `DELETE` requests with `fetch()`
+- Sending JSON data in a request body
+- Working with other request body formats
+- Handling responses to each request type
+
+## Web Storage
+
+- `localStorage`
+- `sessionStorage`

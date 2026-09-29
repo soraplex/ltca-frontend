@@ -1,37 +1,41 @@
-# Workbook 7
+# Workbook 7: JSON, AJAX, REST APIs, Fetch, CORS, Node.js
 
-code demos, examples & exercises for workbook 7
+Demos, examples, and exercises covering how browsers talk to servers, from making HTTP requests to running a local REST API.
 
-- JSON 
-  - Stringifying JSON, REST APIs
-- AJAX
-  - REST APIs, REST API URLs (Endpoints)
-  - HTTP Requests, HTTP Responses, HTTP Status Codes
-  - json place holders
-  - GET
-- Postman
-  - Specifying HTTP method
-  - Sending a request
-  - Specifying additional information
-  - Specifying the Request body
-- Fetch API
-  - AJAX calls using Fetch API
-- Fetch request
-  - Loading a dropdown with array data
-  - Loading a table with array data
-  - Examning response of HTTP status
-- CORS and Same-Origin Policy Issues
-  - CORS error
-  - Ask REST API about Origins
-  - Configuring a server to support CORS
-- Node.js
-  - NPM
-  - Node project structure
-- Local REST API server written in Node.js
-  - Code Along
-    - Step 1: Checking Node.js and npm versions
-    - Step 2: Cloning the repository
-    - Step 3: Install package dependencies
-    - Step 4: Start the Courses REST API server
-    - Step 5: Verify server is working
-    - Implement additional features
+## JSON
+
+- Stringifying JSON with `JSON.stringify()`
+- JSON as the data format for REST APIs
+
+## AJAX and REST APIs
+
+- REST API URLs (endpoints)
+- HTTP requests, responses, and status codes
+- GET requests
+- Working with JSONPlaceholder
+
+## Postman
+
+- Choosing the HTTP method and sending a request
+- Adding headers and other request information
+- Specifying the request body
+
+## Fetch API
+
+- Making AJAX calls with `fetch()`
+- Loading a dropdown from array data
+- Loading a table from array data
+- Examining the HTTP status of a response
+
+## CORS
+
+- The same-origin policy and CORS errors
+- Asking a REST API which origins it allows
+- Configuring a server to support CORS
+
+## Node.js
+
+- npm
+- Node project structure
+- Running a local REST API server (Courses API): setup, dependencies, and verification
+- Implementing additional features on the server

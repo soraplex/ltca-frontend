@@ -1,31 +1,30 @@
-# Workbook 5
+# Workbook 5: Arrays, DOM and BOM, Modifying Page Content, Tables
 
-code demos, examples & exercises for workbook 5
+Demos, examples, and exercises covering array methods, the browser and document object models, and dynamic page updates.
 
-- JavaScript Arrays cont.
-  - forEach()
-  - map() (and other instanced methods)
-  - sorting arrays / array of objects
-  - arrow functions
-  - multidimensial arrays
-- DOM and BOM
-  - Executing JavaScript in the browser
-  - navigator Object
-  - location Object
+## Arrays
+
+- Iteration and transformation: `forEach()`, `map()`, and other array methods
+- Sorting arrays and arrays of objects
+- Arrow functions
+- Multidimensional arrays
+
+## Browser Object Model (BOM)
+
+- Executing JavaScript in the browser
+- The `navigator` object
+- The `location` object
 - Opening and closing windows
-- Working with DOM
-  - acceessing element by id, class, tag name
-  - Query Selectors
-- Working with Elements
-  - value and innerHTML
-  - Accessing properties of elements
-  - CSS Properties
-  - Sripting inline styles
-  - CSS classes
-- Modify page contents
-  - adding, removing, and replacing nodes
-    - Appending child node
-    - removing child node
-    - replacing child node
-  - working with tables
-    - table structures
+
+## Document Object Model (DOM)
+
+- Accessing elements by id, class, and tag name
+- Query selectors
+- Element `value` and `innerHTML`
+- Accessing element properties
+- Scripting CSS: inline styles, CSS properties, and classes
+
+## Modifying Page Content
+
+- Appending, removing, and replacing child nodes
+- Building and modifying tables

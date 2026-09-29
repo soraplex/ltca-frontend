@@ -1,27 +1,27 @@
-# Workbook 1
+# Workbook 1: HTML, CSS, Bootstrap
 
-code demos, examples & exercises for workbook 1
+Demos, examples, and exercises covering page structure, styling, and layout.
 
-- HTML 
-  - Syntax, structure, tags, images, tables, validation
-  - Block and Inline elements
-  - W3C markup validation
-  - Semantic vs Non-Semantic page layout
-- CSS
-  - Selectors, properties, inline styling, syntax
-  - Attribute Selector
-  - Pseudo-class selectors
-  - CSS Properties
-  - Units, custom fonts
-  - Specificity
-  - Box Model
-  - Flexbox, Grid, Position
-  - Calculating box model size
-  - Margin, positioning
-- Bootstrap
-  - Using CDN (content delivery network)
-  - Bootstrap grid, row, column, column/row classes
-  - Utility Classes
-    - color, border, spacing, sizing, texting
-  - Components
-    - navbar, form, card, media queries
+## HTML
+
+- Syntax, document structure, tags, images, tables
+- Block and inline elements
+- Semantic vs. non-semantic page layout
+- W3C markup validation
+
+## CSS
+
+- Selectors: element, attribute, pseudo-class
+- Syntax, properties, inline styling
+- Units and custom fonts
+- Specificity
+- Box model, including calculating element size
+- Layout: Flexbox, Grid, positioning, margins
+
+## Bootstrap
+
+- Loading Bootstrap via a CDN (content delivery network)
+- Grid system: rows, columns, and column classes
+- Utility classes: color, border, spacing, sizing, text
+- Components: navbar, forms, cards
+- Responsive design with media queries

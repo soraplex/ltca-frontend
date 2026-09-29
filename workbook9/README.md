@@ -1,49 +1,41 @@
-# Workbook9
+# Workbook 9: Object-Oriented JavaScript and SQL
 
-code demos, examples & exercises for workbook 9
+Demos, examples, and exercises covering ES6 classes and working with relational databases using SQL.
 
-- Object Oriented JavaScript
-  - ES6 classes introduction
-  - Defining contructor
-  - Creating objects using a class
-  - Defining methods
-  - Enhancing the class
-  - Calling one method from another
-  - Extending a class
-- Introduction to Relational Databases
-  - Databases and DBMS
-  - Database operation
-  - Collection of tables
-- Query data
-  - SELECT / SELECT *
-  - Optional clauses in a SELECT statement
-  - ORDER BY 
-  - WHERE / complex WHERE
-  - LIKE and BETWEEN comparisons
-  - Querying for null values
-  - SELECT DISTINCT
-- MySQL Workbench
-  - Exploring database
-  - Viewing records
-  - Executing queries
-- Additional Query Features
-  - Aggregate functions
-    - COUNT()
-    - SUM()
-    - AVG()
-    - MIN() AND MAX()
-- Grouping Results
-  - GROUP BY
-  - AS keyword
-  - HAVING clause
-  - Nested queries
-- Querying Multiple Tables (JOINS)
-  - INNER JOINS
-  - OUTTER JOINS
-- Modifying the data and database
-  - Inserting, Updating, and Deleting data
-  - INSERT INTO statements
-  - UPDATE statements
-  - DELETE statements
-- Creating a Table
-  - CREATE TABLE
+## Object-Oriented JavaScript
+
+- ES6 classes and constructors
+- Creating objects from a class
+- Defining methods, including calling one method from another
+- Extending a class (inheritance)
+
+## Relational Databases
+
+- Databases and database management systems (DBMS)
+- Databases as collections of tables
+- Exploring databases, viewing records, and running queries in MySQL Workbench
+
+## Querying Data
+
+- `SELECT` and `SELECT *`
+- `WHERE`, including compound conditions
+- `LIKE`, `BETWEEN`, and null checks
+- `ORDER BY`
+- `SELECT DISTINCT`
+
+## Aggregation and Grouping
+
+- Aggregate functions: `COUNT()`, `SUM()`, `AVG()`, `MIN()`, `MAX()`
+- `GROUP BY` and `HAVING`
+- Column aliases with `AS`
+- Nested queries
+
+## Joining Tables
+
+- `INNER JOIN`
+- `OUTER JOIN`
+
+## Modifying Data and Structure
+
+- `INSERT INTO`, `UPDATE`, and `DELETE`
+- `CREATE TABLE`
