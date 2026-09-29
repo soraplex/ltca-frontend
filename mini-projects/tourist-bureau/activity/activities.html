@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css" />
+    <title>Activities Page</title>
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <article>
+        <h1>Category</h1>
+        <select id="categoryList">
+          <option value="">Select a category</option>
+        </select>
+        <h1>Activity</h1>
+        <select id="activityList">
+          <option value="">Select a activity</option>
+        </select>
+        <legend>Activity:</legend>
+        <p id="seledtedActivity"></p>
+        <p>ID: <span id="activityId"></span></p>
+        <p>Description: <span id="descriptionText"></span></p>
+        <p>Location: <span id="locationText"></span></p>
+        <p>Price</p>
+        <span id="signHidden">$</span>
+        <span id="priceInfo"></span>
+        <form id="paymentForm">
+          <label for="ticketAmount">Number Of Ticket</label>
+          <input id="ticketAmount" type="number" min="1" />
+          <br />
+          <label for="creditCardNumber">Credit Card Number</label>
+          <input type="text" id="creditCardNumber" />
+          <br />
+          <label for="email">Email address</label>
+          <input type="email" id="email" />
+          <br />
+          <h1>Total:</h1>
+          <p id="totalDetails"></p>
+          <br />
+          <button id="purchaseButton" type="button">Purchase</button>
+        </form>
+      </article>
+    </main>
+    <footer></footer>
+    <script src="activities.js"></script>
+  </body>
+</html>

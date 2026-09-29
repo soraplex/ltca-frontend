@@ -36,7 +36,7 @@ function loadCityDropDownList() {
 }
 loadCityDropDownList();
 
-// .then solution
+// !* .then solution
 // function getLocationPoint(city) {
 //   fetch(`https://api.weather.gov/points/${city.lat},${city.lon}`)
 //     .then((response) => response.json())
