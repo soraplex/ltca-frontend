@@ -1,4 +1,4 @@
-# ⚠️ Note: This repo is a re-upload of workbooks 1-9 condensed into one repo rather than separate folders
+<!-- # ⚠️ Note: This repo is a re-upload of workbooks 1-9 condensed into one repo rather than separate folders
 
 ### workbook 1 - HTML, CSS, Bootstrap
 
@@ -16,4 +16,28 @@
 
 ### workbook 8 - HTTP Methods, Fetch API's(continued), Web Storage
 
-### workbook 9 - OOP in Javascript, SQL, Relational Databases, Querying Data
+### workbook 9 - OOP in Javascript, SQL, Relational Databases, Querying Data -->
+
+# Web Development Workbooks 1-9
+
+> **Note:** This repo is a re-upload of workbooks 1-9, condensed into one repo rather than separate repos.
+
+A collection of coursework covering front-end fundamentals through databases.
+
+## Contents
+
+| Workbook         | Topics                                                                     |
+| ---------------- | -------------------------------------------------------------------------- |
+| [1](./workbook1) | HTML, CSS, Bootstrap                                                       |
+| [2](./workbook2) | Vanilla JavaScript, conditional statements, event handling                 |
+| [3](./workbook3) | Functions, return values, scoping, strings, dates, forms                   |
+| [4](./workbook4) | Objects, loops and arrays, forms (continued)                               |
+| [5](./workbook5) | Arrays (continued), DOM and BOM, modifying page content, tables            |
+| [6](./workbook6) | Codewars technical practice, algorithms, Python and Java mini-introduction |
+| [7](./workbook7) | JSON, AJAX (REST APIs), Postman, Fetch API and requests, CORS, Node.js     |
+| [8](./workbook8) | HTTP methods, Fetch API (continued), Web Storage                           |
+| [9](./workbook9) | OOP in JavaScript, SQL, relational databases, querying data                |
+
+## Usage
+
+Open any workbook's `index.html` in a browser, or run `node <file>.js` for the Node.js exercises.
